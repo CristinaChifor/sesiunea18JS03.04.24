@@ -17,7 +17,8 @@ class Quiz {
             const buttonElement = document.createElement('button');
             buttonElement.classList.add('btn');
             buttonElement.textContent = answer.text;
-
+            this.answerButtons.appendChild(buttonContainer);
+            buttonContainer.appendChild(buttonElement);
         }
     }
 
